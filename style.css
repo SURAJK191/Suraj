@@ -4,11 +4,26 @@ body
     justify-content: center;
     align-items: center;
     min-height: 10vh;
-    background-image:url('gallery_b7103ca278a75cad8f7d065acda0c2e80da0b7dc54.jpg') ;
+    background-image:url('Gentle Smile and Floral Shirt.png') ;
     background-repeat: no-repeat;
       }
 
+.gradient-background 
+{
+            width: 400px;
+            padding: 30px;
+            margin: 50px auto;
+            border-radius: 10px;
+            background-color: #4CAF50;
+            background-image: linear-gradient(
+                to right, 
+                #a777c4bd,
+                #599fb1
+            );
+            color: #333;
+            font-family: Arial, sans-serif;
 
+}
 ::placeholder
       {
     color: #c4d1d1;
